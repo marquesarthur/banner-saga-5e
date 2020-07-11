@@ -1,0 +1,132 @@
+\documentclass[11pt]{book}
+\usepackage[bg-letter]{lib/rpg-book} % Options: bg-a4, bg-letter, bg-full, bg-print, bg-none.
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage[T1]{fontenc}
+\usepackage{tgcursor}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage{wrapfig}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\makeatletter
+\def\newsect{%
+    \vskip2em plus0.5em minus0.5em%
+    \hbox to\linewidth{\hfil*\quad\quad*\quad\quad*\hfil}%
+    \penalty10000\vskip2em plus0.5em minus0.5em%
+    \@afterindentfalse\@afterheading%
+}
+\makeatother%
+
+
+\definecolor{alien}{HTML}{660f00}
+
+\definecolor{PC}{HTML}{c0ccc1}
+
+\definecolor{lightgray}{gray}{0.9}
+% \sethlcolor{lightgray}
+
+
+\newcommand\pc[1]{\colorbox{PC}{\color{black} #1}}
+
+% https://tex.stackexchange.com/questions/12262/multicol-and-figures
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+%  
+
+% \AtBeginDocument{\globalcolor{alien}}
+
+\title{Old Epic}
+\date{\today}
+\author{Arthur Marques}
+
+
+
+
+
+% Start document
+\begin{document}
+\fontfamily{ppl}\selectfont % Set text font
+\frontmatter
+
+\maketitle
+
+
+
+\tableofcontents
+
+% Your content goes here
+\mainmatter
+% \chapter{Chapter name}
+
+% \section{Section name}
+% \lipsum[1] % filler text
+
+% \subsection{Subsection name}
+% \subsubsection{subsubsection name}
+
+% \begin{rpg-commentbox}{rpg-commentbox name}
+% 	you can add some comments using this box
+% \end{rpg-commentbox}
+
+% \begin{rpg-warnbox}{rpg-warnbox name}
+% 	you can add some warnings using this box
+% \end{rpg-warnbox}
+
+% \begin{rpg-quotebox}{rpg-quotebox name}
+%     this is a quote box
+% \end{rpg-quotebox}
+
+% %\newpage % Acts as columbreak because of twocolumn option; for pagebreak use \clearpage
+
+% \header{default rpg-table (2 column)}
+% \begin{rpg-table}
+%    	\textbf{Table head 1}  & \textbf{Table head 2} \\
+%    	Some value  & Some value \\
+%    	Some value  & Some value \\
+%    	Some value  & asda value
+% \end{rpg-table}
+
+% % For more columns, you can say \begin{rpg-table}[your options here].
+% % For instance, if you wanted three columns, you could say
+% % \begin{rpg-table}[XXX]. The usual host of tabular parameters are
+% % aailable as well.
+% \header{rpg-table with more columns}
+% \begin{rpg-table}[XXX]
+%     \textbf{Table head 1}  & \textbf{Table head 2} & \textbf{Table head 3}\\
+%    	Some value  & Some value & Some value\\
+%    	Some value  & Some value & Some value\\
+%    	Some value  & Some value & Some value
+% \end{rpg-table}
+
+% \newsect
+
+
+\input{sections/pcs}
+
+% \input{sections/situation}
+% \input{sections/characters}
+% \input{sections/act-1}
+% \input{sections/act-2}
+% \input{sections/act-3}
+% % \input{sections/epilogue}
+% \input{sections/appendix}
+
+% End document
+\end{document}

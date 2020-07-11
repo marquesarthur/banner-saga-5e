@@ -1,0 +1,48 @@
+\ProvidesPackage{lib/book/rpg-backgroundimg}
+\usepackage[pages=all]{background} %background images with different backgrounds for even and odd pages
+
+\newtoggle{bool-a4}
+\newtoggle{bool-print}
+
+\DeclareOption{a4}{\toggletrue{bool-a4}}
+\DeclareOption{letter}{\togglefalse{bool-a4}}
+\DeclareOption{print}{\toggletrue{bool-print}}
+\DeclareOption{full}{\togglefalse{bool-print}}
+
+\ExecuteOptions{letter,full}
+\ProcessOptions\relax
+
+\iftoggle{bool-a4}{%
+	\iftoggle{bool-print}{%
+		\newcommand{\oddbackgroundimg}{lib/book/img/bg.jpg}
+		\newcommand{\evenbackgroundimg}{lib/book/img/bg.jpg}
+		}{
+		\newcommand{\oddbackgroundimg}{lib/book/img/bg.jpg}
+		\newcommand{\evenbackgroundimg}{lib/book/img/bg.jpg}
+		}
+	}{%
+	\iftoggle{bool-print}{%
+		\newcommand{\oddbackgroundimg}{lib/book/img/bg.jpg}
+		\newcommand{\evenbackgroundimg}{lib/book/img/bg.jpg}
+		}{%
+		\newcommand{\oddbackgroundimg}{lib/book/img/bg.jpg}
+		\newcommand{\evenbackgroundimg}{lib/book/img/bg.jpg}
+		}
+	}
+
+
+\backgroundsetup{
+	scale=1,
+	opacity=1.0,
+	angle=0,
+	color=black,
+	contents={%
+		\ifodd\value{page}
+			\includegraphics[width=\paperwidth]{\oddbackgroundimg}
+			\else
+			\includegraphics[width=\paperwidth]{\evenbackgroundimg}
+		\fi
+		}
+	}
+
+

@@ -1,0 +1,259 @@
+Macros
+
+.....................................................................................
+.....................................................................................
+GLOBAL
+
+ROLL DICE + STRESS
+REMOVE /w GM if you want this for players
+
+10d6
+/w GM &{template:alien} {{character-name=@{selected|character_name} }} {{roll-name=Roll}} {{base-dice=[[10]] }} {{base-roll-one=[[1d6]] }} {{base-roll-two=[[1d6]] }} {{base-roll-three=[[1d6]] }} {{base-roll-four=[[1d6]] }} {{base-roll-five=[[1d6]] }}  {{base-roll-six=[[1d6]] }} {{base-roll-seven=[[1d6]] }} {{base-roll-eight=[[1d6]] }} {{base-roll-nine=[[1d6]] }} {{base-roll-ten=[[1d6]] }} {{base-roll-eleven=[[1d6]] }} {{base-roll-twelve=[[1d6]] }} {{base-roll-thirteen=[[1d6]] }} {{base-roll-fourteen=[[1d6]] }} {{base-roll-fifteen=[[1d6]] }} {{base-roll-sixteen=[[1d6]] }} {{base-roll-seventeen=[[1d6]] }} {{base-roll-eighteen=[[1d6]] }}  {{stress-dice=[[@{selected|stress}]] }} {{stress-roll-one=[[1d6]] }} {{stress-roll-two=[[1d6]] }} {{stress-roll-three=[[1d6]] }} {{stress-roll-four=[[1d6]] }} {{stress-roll-five=[[1d6]] }} {{stress-roll-six=[[1d6]] }} {{stress-roll-seven=[[1d6]] }} {{stress-roll-eight=[[1d6]] }} {{stress-roll-nine=[[1d6]] }} {{stress-roll-ten=[[1d6]] }}
+
+9d6
+/w GM &{template:alien} {{character-name=@{selected|character_name} }} {{roll-name=Roll}} {{base-dice=[[9]] }} {{base-roll-one=[[1d6]] }} {{base-roll-two=[[1d6]] }} {{base-roll-three=[[1d6]] }} {{base-roll-four=[[1d6]] }} {{base-roll-five=[[1d6]] }}  {{base-roll-six=[[1d6]] }} {{base-roll-seven=[[1d6]] }} {{base-roll-eight=[[1d6]] }} {{base-roll-nine=[[1d6]] }} {{base-roll-ten=[[1d6]] }} {{base-roll-eleven=[[1d6]] }} {{base-roll-twelve=[[1d6]] }} {{base-roll-thirteen=[[1d6]] }} {{base-roll-fourteen=[[1d6]] }} {{base-roll-fifteen=[[1d6]] }} {{base-roll-sixteen=[[1d6]] }} {{base-roll-seventeen=[[1d6]] }} {{base-roll-eighteen=[[1d6]] }}  {{stress-dice=[[@{selected|stress}]] }} {{stress-roll-one=[[1d6]] }} {{stress-roll-two=[[1d6]] }} {{stress-roll-three=[[1d6]] }} {{stress-roll-four=[[1d6]] }} {{stress-roll-five=[[1d6]] }} {{stress-roll-six=[[1d6]] }} {{stress-roll-seven=[[1d6]] }} {{stress-roll-eight=[[1d6]] }} {{stress-roll-nine=[[1d6]] }} {{stress-roll-ten=[[1d6]] }}
+
+
+repeat changing base-dice=[[N]] where N is the number of dices you want
+
+.....................................................................................
+.....................................................................................
+initiative
+
+&{template:alien} {{character-name=**@{selected|character_name}** }} {{roll-name=Initiative }} {{ [[1d10&{tracker}]] }}
+
+
+.....................................................................................
+.....................................................................................
+MACROS ON CHARACTER SHEET
+
+
+panic
+
+
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ KEEPING IT TOGETHER. You manage to keep your nerves in check. Barely. }}
+
+07
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ NERVOUS TWITCH. Your STRESS LEVEL , and the STRESS LEVEL of all friendly PCs in SHORT
+range of you, increases by one. }}
+
+08
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ TREMBLE. You start to tremble uncontrollably. All skill rolls using AGILITY suffer a –2
+modification until your panic stops. }}
+
+09
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ DROP ITEM. Whether by stress, confusion or the realization that you’re all going to die
+anyway, you drop a weapon or other important item—the GM decides which one. Your
+STRESS LEVEL increases by one. }}
+
+10
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ FREEZE. You’re frozen by fear or stress for one Round, losing your next slow action. Your
+STRESS LEVEL ,
+and the STRESS LEVEL of all friendly PCs in SHORT range of you, increases by
+one. }}
+
+11
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ SEEK COVER. You must use your next action to move away from danger and find a safe
+spot if possible. You are allowed to make a retreat roll (see page 93) if you have an en-
+emy at ENGAGED range. Your STRESS LEVEL is decreased by one, but the STRESS LEVEL of all
+friendly PCs in SHORT range increases by one. After one Round, you can act normally.}}
+
+12
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ SCREAM. You scream your lungs out for one Round, losing your next slow action. Your
+is decreased by one, but every friendly character who hears your scream
+must make an immediate Panic Roll.}}
+
+13
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ FLEE . You just can’t take it anymore. You must flee to a safe place and refuse to leave it.
+You won’t attack anyone and won’t attempt anything dangerous. You are not allowed
+to make a retreat roll (see page 93) if you have an enemy at ENGAGED range when you
+flee. Your STRESS LEVEL is decreased by one, but every friendly character who sees you
+run must make an immediate Panic Roll.}}
+
+14
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ BERSERK. You must immediately attack the nearest person or creature, friendly or not.
+You won’t stop until you or the target is Broken. Every friendly character who witnesses
+your rampage must make an immediate Panic Roll.}}
+
+15
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ CATATONIC. You collapse to the floor and can’t talk or move, staring blankly into oblivion.}}
+
+.....................................................................................
+.....................................................................................
+
+Alien
+
+/w gm &{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ speed=3 }}{{health=2}}{{armor=3  
+(zero against fire damage)}}{{--------------------------------
+Mobility 9, Observation 6 }}
+&{template:alien}{{character-name=@{selected|character_name} }}{{--------------------------------
+Attacks = [[1d6]]}}
+
+attack-1
+/w gm &{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ HORRIBLE ROAR. The Abomination screams in fury. All humans in SHORT range must make an
+immediate panic roll. }}
+
+attack-2
+/w gm &{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ FIST STRIKE. The Abomination strikes its victim with a powerful punch. Roll for the attack
+with ten Base Dice, Damage 1. }}
+
+
+repeat for all attacks
+change 1d6 in Attacks = ... to the appropriate number of attacks
+
+.....................................................................................
+.....................................................................................
+
+PC
+
+stamina
+&{template:alien}{{character-name=Skill}}{{roll-name=Stamina}}{{ Give one SUCCESS to another PC in the same situation as you.}}{{ Gain a +1 modification to a later skill roll relating to this one.}}{{ You’re hardened by the experience, and don’t need to roll to overcome the exact same challenge in the future. }}{{ You impress someone.}}
+
+close-combat
+&{template:alien}{{character-name=Skill}}{{roll-name=Close Combat}} {{ You inflict one more point of damage. You can choose this stunt multiple times.}} {{ You outmaneuver your enemy and can trade initiative scores (see page 87) with them, taking effect next turn. You can’t go back to your earlier initiative.}} {{ You knock or pull a weapon or other object from your opponent. You choose which. During combat, picking up a dropped object counts as a fast action (see page 87).}} {{ Your opponent is knocked to the ground.}} {{ You hold your opponent in a grapple. They need to win an opposed CLOSE COMBAT roll against you to break free, and can’t perform any other action until they have done so, or until you are Broken or let them go. This effect only works on humans and synthetics.}}
+
+Mobility
+&{template:alien}{{character-name=Skill}}{{roll-name=Mobility}} {{ Give one SUCCESS to another PC in the same situation as you.}} {{ Gain a +1 modification to a later skill roll relating to this one}} {{You impress someone. }}
+
+pilot
+&{template:alien}{{character-name=Skill}}{{roll-name=Pilot}}  {{ Gain a +1 modification to a later skill roll relating to this one}} {{You show off }}
+
+combat-ranged
+&{template:alien}{{character-name=Skill}}{{roll-name=Ranged Combat}} {{ You inflict one more point of damage. You can choose this stunt multiple times.}} {{ You pin down your enemy. They need to make an immediate Panic Roll.}} {{ Your target drops a weapon or another hand-held object. You choose which.}} {{ You position yourself and get to exchange your initiative score (see page 87) with your enemy, taking effect next turn. You can’t go back to your earlier initiative.}} {{ Your opponent falls to the ground or is pushed back, for example through an airlock.}}
+
+Observation
+&{template:alien}{{character-name=Skill}}{{roll-name=Observation}} {{ Is it coming for me?}} {{ Are there more of them close by?}} {{ How do I get in/past/away?}}
+
+comtech
+&{template:alien}{{character-name=Skill}}{{roll-name=Comtech}} {{Gain a +1 modification to a later skill roll relating to this one.}} {{ You don’t need to roll to overcome the exact same challenge in the future.}} {{ You do it quickly, in half the time it would normally take.}} {{ You get new or unexpected information (GM’s choice).}}{{ You hide your tracks.}}{{ You show off.}}
+
+survival
+&{template:alien}{{character-name=Skill}}{{roll-name=Survival}} {{ Give one SUCCESS to another PC in the same trouble as you.}} {{  Gain a +1 modification to a later skill roll}} relating to this one.}} {{  You impress someone.    }}
+
+manipulation
+&{template:alien}{{character-name=Skill}}{{roll-name=Manipulation}} {{ Your opponent does what you want without demanding a favor in return. }} {{ Your opponent does more than you ask for, for example giving you some useful piece of information. Details are up to the GM. }} {{ Your opponent is impressed by you and will try to help you later on in some way. Details are up to the GM.    }}
+
+medical-aid
+&{template:alien}{{character-name=Skill}}{{roll-name=Medical Aid}} {{ **Recovery** A person whose Health has dropped to zero is Broken. If you apply your MEDICAL AID skills to them and your roll succeeds, they get back on their feet and immediately recover a number of Health points equal to the number of you SUCCESS rolled}} {{ **Save life** The most critical use of MEDICAL AID is saving the life of a fallen character who has suffered a critical injury. A failed roll at this point could mean the end for your patient, so be careful! Read more about critical injuries on page 99.}}
+
+command
+&{template:alien}{{character-name=Skill}}{{roll-name=Command}} {{**Stop panic** STOP PANIC: When another character makes a Panic Roll and loses control, you can make a COMMAND roll to return them to their senses. See page 104}} {{**Give Orders**: In combat, as a slow action you can bark orders to another character. They must be able to hear you, even if via a comm radio. Roll COMMAND. For every SUCCESS you roll, they get a +1 modification to their roll when carrying out the order you gave.}}{{PCs with the Officer career and the Pull Rank talent can use COMMAND to order other characters (PCs and NPCs) to do as they say.}}
+
+heavy-machinery
+&{template:alien}{{character-name=Skill}}{{roll-name=Heavy Machinery}} {{ Gain a +1 modification to a later skill roll relating to this one. }} {{ You got this. You don’t need to roll to overcome the exact same challenge in the future. }} {{ You do it quickly, in half the time it would normally take. }} {{ You break it permanently. }} {{ You act quietly. }} {{ You show off. }}
+
+
+.....................................................................................
+.....................................................................................
+
+spaceship
+
+
+desc
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=--------------------------------}}{{ crew=6 }}{{ftl rating=20}}{{signature=0}}{{thrusters=1}}{{hull=6}}{{armor-rating=5}}{{--------------------------------
+Artificial Intelligence I
+Air Scrubbers II
+Cargo Bay III
+Cryo Deck II
+Docking Umbilical II
+EEV II
+Galley II
+Hangar III
+Salvage Crane III }}{{--------------------------------
+6✕ PDCs
+2✕ Torpedo launchers (Carrying 20 torpedoes)}}
+
+
+missile-short
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=Rapid-reload missile bays}}{{ bonus=2 }}{{damage=5}}{{Long range}}{{ }}
+
+
+
+missile-Long
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=Configurable plasma-grade tubes}}{{ bonus=2 }}{{damage=6}}{{Extreme range}}{{ }}
+
+
+PDCs
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name= Redfield Ballistics 40mm}}{{ bonus=0 }}{{damage=3}}{{short}}{{ armor piercing }}
+
+
+PDCs-2
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=  Nariman Dynamics 40mm}}{{ bonus=0 }}{{damage=4}}{{short}}{{ armor piercing }}
+
+
+rail-gun-medium
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=Foehammer turreted railguns}}{{ bonus=0 }}{{damage=4}}{{short}}{{ armor piercing }}
+
+rail-gun-heavy
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=Farren-Pattern Heavy Railguns}}{{ bonus=0 }}{{damage=5}}{{Medium}}{{ armor piercing }}
+
+
+laser-array
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=Laser Array}}{{ bonus=1 }}
+
+
+
+sensor-1
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=TARGET LOCK}}{{To lock your sensors on to an enemy ship, make a COMTECH roll, modified by range, the Signature rating of the enemy ship, and other factors (see the table on the next page). If you succeed, your sensors lock on to the ship and you can now target it with your armaments in this Turn. }}
+
+sensor-2
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=GO DARK}}{{Make a COMTECH roll—each success you roll eliminates one rolled by the enemy. In addition, you can reduce your Signature rating (taking effect immediately) by powering down your ship’s sensors and/or engines, as part of
+the Go Dark action (see page 190). }}
+
+
+
+
+pilot-1
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=ACCELERATE}}{{Roll for PILOTING, modified by the Thrusters rating of your ship. If you roll one SUCCESS, the approach velocity of your ship is increased by one. If you roll several, you may increase your approach velocity by one or two steps.}}
+
+
+pilot-2
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=DECELERATE}} {{Roll for PILOTING, modified by the Thrusters rating of your ship. If you roll one SUCCESS, the approach velocity of your ship is decreased by one. If you roll several , you may decrease your approach velocity by one or two steps.}}
+
+
+pilot-3
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=MANEUVER}}{{Make an opposed PILOTING roll against the pilot of an enemy ship, modified by the Thrusters rating of your ship. It counts as an action for you, but not for the enemy. Only you can push the roll. If you win the roll, you can trade initiative cards with the enemy ship.}} 
+
+gun-1
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=FIRE WEAPON}}{{ You can only attack an enemy which you have Target Locked. Roll for RANGED COMBAT, modified by the Bonus rating of the weapon you use and the range to the target (see the table below). If your attack hits, you inflict damage equal to the weapon’s Damage rating on the target, just like in personal combat. For every extra SUCCESS you roll, you inflict one additional point of damage. Read more about damage to ships on page 197. If the pilot of the target ship Evades (see above), each they roll eliminates one rolled by you}}
+
+gun-2
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=LAUNCH COUNTERMEASURES}}  {{This reactive action is used to launch defensive measures such as sensor decoys and sensor drones (see page 176). If any offensive weapons are fired at your ship in this Turn from SHORT range (adjacent zone) or more, your gunner rolls RANGED COMBAT, modified by the Bonus rating of the countermeasure. Every rolled by your gunner eliminates one rolled by the attacker. If you are attacked multiple times, make a separate roll for each incoming attack}}
+
+engineer-1
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name= EMERGENCY REPAIRS}}{{A minor or major component damage (see next page) is hastily repaired. Roll for HEAVY MACHINERY or COMTECH (or both) as indicated by the table on pages 198–199. The repair is just a quick fix—it requires no spare parts, but it will only hold for one Shift. For permanent repairs, see page 200.}} 
+
+engineer-2
+&{template:alien}{{character-name=@{selected|character_name} }}{{roll-name=REACTOR OVERLOAD}}  {{Requires a HEAVY MACHINERY roll. If successful, the reactor will overload and explode at the end of the following Turn, destroying the ship and killing everyone on board. Make sure to get into those EEVs fast. The self-destruct sequence can be stopped with another HEAVY MACHINERY roll (takes one Turn).}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

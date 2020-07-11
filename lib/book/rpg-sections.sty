@@ -1,0 +1,21 @@
+%Remove Numbering from section (If you want Numbering on the sections comment the following three lines and change the "0em" separation-definitions in the lower part to 1em)
+%\renewcommand\thechapter{}
+% \renewcommand\thesection{}
+%\renewcommand\thesubsection{}
+%\renewcommand\thesubsubsection{}
+
+
+% Adjust section and subsection colors and font (change 0em to 1em if you commented the removal of section numbering)
+\titleformat{\chapter}[display]
+{\color{titlered}\normalfont\scshape\Large}
+{\flushright \normalsize \color{titlered} \MakeUppercase{\chaptertitlename}{\fontsize{60}{60}\selectfont \color{titlered}\thechapter}}{0em}{\Huge}
+
+\titleformat{\section}[hang]
+{\color{titlered}\normalfont\scshape\Large}{\thesection}{0.5em}{}[{\titleline{\color{white}\titlerule[1pt]}}]
+
+
+\titleformat{\subsection}[display]
+{\color{titlered}\normalfont\scshape\large}{\thesubsection}{0em}{}
+
+\titleformat{\subsubsection}
+{\color{titlered}\normalfont\scshape\large}{\thesubsubsection}{0em}{}[]
