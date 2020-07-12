@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.23)  11 JUL 2020 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.23)  11 JUL 2020 19:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/msarthur/RPG/banner-saga-5e/book.tex
-(/home/msarthur/RPG/banner-saga-5e/book.tex
+**/home/msarthur/RPG/old-epic/book.tex
+(/home/msarthur/RPG/old-epic/book.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
@@ -24,7 +24,7 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/home/msarthur/RPG/banner-saga-5e/lib/rpg-book.sty
+) (/home/msarthur/RPG/old-epic/lib/rpg-book.sty
 
 LaTeX Warning: You have requested package `lib/rpg-book',
                but the package provides `rpg'.
@@ -700,7 +700,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen274
 \Gm@layoutvoffset=\dimen275
 \Gm@dimlist=\toks41
-) (/home/msarthur/RPG/banner-saga-5e/lib/book/rpg-monster.sty (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+) (/home/msarthur/RPG/old-epic/lib/book/rpg-monster.sty (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
  `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
@@ -735,7 +735,7 @@ Package: fp-eqn 1995/04/03
 Package: fp-upn 1996/10/21
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
-))) (/home/msarthur/RPG/banner-saga-5e/lib/book/rpg-sections.sty) (/home/msarthur/RPG/banner-saga-5e/lib/book/rpg-comment.sty) (/home/msarthur/RPG/banner-saga-5e/lib/book/rpg-list.sty) (/home/msarthur/RPG/banner-saga-5e/lib/book/rpg-table.sty) (/home/msarthur/RPG/banner-saga-5e/lib/book/rpg-quote.sty) (/home/msarthur/RPG/banner-saga-5e/lib/book/rpg-paperbox.sty) (/home/msarthur/RPG/banner-saga-5e/lib/book/rpg-backgroundimg.sty
+))) (/home/msarthur/RPG/old-epic/lib/book/rpg-sections.sty) (/home/msarthur/RPG/old-epic/lib/book/rpg-comment.sty) (/home/msarthur/RPG/old-epic/lib/book/rpg-list.sty) (/home/msarthur/RPG/old-epic/lib/book/rpg-table.sty) (/home/msarthur/RPG/old-epic/lib/book/rpg-quote.sty) (/home/msarthur/RPG/old-epic/lib/book/rpg-paperbox.sty) (/home/msarthur/RPG/old-epic/lib/book/rpg-backgroundimg.sty
 Package: lib/book/rpg-backgroundimg 
  (/usr/share/texlive/texmf-dist/tex/latex/background/background.sty
 Package: background 2014/03/04 v2.1 background material
@@ -1278,7 +1278,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rotFPbot=\skip76
 \rot@float@box=\box102
 \rot@mess@toks=\toks55
-) (/home/msarthur/RPG/banner-saga-5e/book.aux (/home/msarthur/RPG/banner-saga-5e/sections/classes/barbarian.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/fighter.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/paladin.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/bard.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/hunter.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/rogue.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/cleric.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/druid.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/wizard.aux))
+) (/home/msarthur/RPG/old-epic/book.aux (/home/msarthur/RPG/old-epic/sections/classes/barbarian.aux) (/home/msarthur/RPG/old-epic/sections/classes/fighter.aux) (/home/msarthur/RPG/old-epic/sections/classes/paladin.aux) (/home/msarthur/RPG/old-epic/sections/classes/bard.aux) (/home/msarthur/RPG/old-epic/sections/classes/hunter.aux) (/home/msarthur/RPG/old-epic/sections/classes/rogue.aux) (/home/msarthur/RPG/old-epic/sections/classes/cleric.aux) (/home/msarthur/RPG/old-epic/sections/classes/druid.aux) (/home/msarthur/RPG/old-epic/sections/classes/wizard.aux))
 \openout1 = `book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -1374,7 +1374,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 64.
 LaTeX Info: Redefining \pageref on input line 64.
 LaTeX Info: Redefining \nameref on input line 64.
- (/home/msarthur/RPG/banner-saga-5e/book.out) (/home/msarthur/RPG/banner-saga-5e/book.out)
+ (/home/msarthur/RPG/old-epic/book.out) (/home/msarthur/RPG/old-epic/book.out)
 \@outlinefile=\write6
 \openout6 = `book.out'.
 
@@ -1386,7 +1386,7 @@ LaTeX Font Info:    Try loading font information for T1+ppl on input line 65.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-<lib/book/img/bg.jpg, id=99, 2007.5pt x 2833.58624pt>
+<lib/book/img/bg.jpg, id=95, 2007.5pt x 2833.58624pt>
 File: lib/book/img/bg.jpg Graphic file (type jpg)
 <use lib/book/img/bg.jpg>
 Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 69.
@@ -1395,7 +1395,7 @@ Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 69.
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/msarthur/RPG/banner-saga-5e/lib/book/img/bg.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/msarthur/RPG/old-epic/lib/book/img/bg.jpg>]
 File: lib/book/img/bg.jpg Graphic file (type jpg)
 <use lib/book/img/bg.jpg>
 Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 72.
@@ -1409,7 +1409,7 @@ LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <14.4> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 72.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <24.88> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 72.
- (/home/msarthur/RPG/banner-saga-5e/book.toc)
+ (/home/msarthur/RPG/old-epic/book.toc)
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
@@ -1424,11 +1424,11 @@ Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 75.
 (pdftex.def)             Requested size: 614.295pt x 867.07458pt.
  [4
 
-] (/home/msarthur/RPG/banner-saga-5e/sections/pcs.tex
+] (/home/msarthur/RPG/old-epic/sections/pcs.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <60> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 1.
-(/home/msarthur/RPG/banner-saga-5e/sections/classes/stamina.tex
+(/home/msarthur/RPG/old-epic/sections/classes/stamina.tex
 File: lib/book/img/bg.jpg Graphic file (type jpg)
 <use lib/book/img/bg.jpg>
 Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 1.
@@ -1459,7 +1459,7 @@ File: lib/book/img/bg.jpg Graphic file (type jpg)
 Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 81.
 (pdftex.def)             Requested size: 614.295pt x 867.07458pt.
  [3]
-<img/fighter-dwarf.png, id=151, 1204.5pt x 1204.5pt>
+<img/fighter-dwarf.png, id=146, 1204.5pt x 1204.5pt>
 File: img/fighter-dwarf.png Graphic file (type png)
 <use img/fighter-dwarf.png>
 Package pdftex.def Info: img/fighter-dwarf.png  used on input line 97.
@@ -1468,13 +1468,13 @@ File: lib/book/img/bg.jpg Graphic file (type jpg)
 <use lib/book/img/bg.jpg>
 Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 108.
 (pdftex.def)             Requested size: 614.295pt x 867.07458pt.
- [4 </home/msarthur/RPG/banner-saga-5e/img/fighter-dwarf.png>]
+ [4 </home/msarthur/RPG/old-epic/img/fighter-dwarf.png>]
 \openout2 = `sections/classes/barbarian.aux'.
 
- (/home/msarthur/RPG/banner-saga-5e/sections/classes/barbarian.tex
+ (/home/msarthur/RPG/old-epic/sections/classes/barbarian.tex
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <12> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 8.
-<img/barbarian-half-orc.png, id=158, 1003.75pt x 1361.085pt>
+<img/barbarian-half-orc.png, id=153, 1003.75pt x 1361.085pt>
 File: img/barbarian-half-orc.png Graphic file (type png)
 <use img/barbarian-half-orc.png>
 Package pdftex.def Info: img/barbarian-half-orc.png  used on input line 46.
@@ -1486,11 +1486,11 @@ Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 49.
  [5
 
 
- </home/msarthur/RPG/banner-saga-5e/img/barbarian-half-orc.png>])
+ </home/msarthur/RPG/old-epic/img/barbarian-half-orc.png>])
 \openout2 = `sections/classes/fighter.aux'.
 
- (/home/msarthur/RPG/banner-saga-5e/sections/classes/fighter.tex
-<img/fighter.png, id=164, 1003.75pt x 1574.88374pt>
+ (/home/msarthur/RPG/old-epic/sections/classes/fighter.tex
+<img/fighter.png, id=159, 1003.75pt x 1574.88374pt>
 File: img/fighter.png Graphic file (type png)
 <use img/fighter.png>
 Package pdftex.def Info: img/fighter.png  used on input line 23.
@@ -1502,7 +1502,7 @@ Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 39.
  [6
 
 
- </home/msarthur/RPG/banner-saga-5e/img/fighter.png>])
+ </home/msarthur/RPG/old-epic/img/fighter.png>])
 File: lib/book/img/bg.jpg Graphic file (type jpg)
 <use lib/book/img/bg.jpg>
 Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 114.
@@ -1512,12 +1512,12 @@ Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 114.
 ]
 \openout2 = `sections/classes/paladin.aux'.
 
- (/home/msarthur/RPG/banner-saga-5e/sections/classes/paladin.tex
-<img/paladin.png, id=175, 960.58875pt x 838.13126pt>
-File: img/paladin.png Graphic file (type png)
-<use img/paladin.png>
-Package pdftex.def Info: img/paladin.png  used on input line 16.
-(pdftex.def)             Requested size: 262.2045pt x 228.7795pt.
+ (/home/msarthur/RPG/old-epic/sections/classes/paladin.tex
+<img/paladin-2.png, id=170, 828.09375pt x 1204.5pt>
+File: img/paladin-2.png Graphic file (type png)
+<use img/paladin-2.png>
+Package pdftex.def Info: img/paladin-2.png  used on input line 16.
+(pdftex.def)             Requested size: 262.2045pt x 381.38608pt.
 File: lib/book/img/bg.jpg Graphic file (type jpg)
 <use lib/book/img/bg.jpg>
 Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
@@ -1525,49 +1525,36 @@ Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
  [8
 
 
- </home/msarthur/RPG/banner-saga-5e/img/paladin.png>])) (/home/msarthur/RPG/banner-saga-5e/sections/classes/cunning.tex
+ </home/msarthur/RPG/old-epic/img/paladin-2.png>])) (/home/msarthur/RPG/old-epic/sections/classes/cunning.tex
 Chapter 3.
-<img/trickster.png, id=182, 896.34875pt x 1027.84pt>
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <14.4> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 80.
+File: lib/book/img/bg.jpg Graphic file (type jpg)
+<use lib/book/img/bg.jpg>
+Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 80.
+(pdftex.def)             Requested size: 614.295pt x 867.07458pt.
+[9
+
+
+]
+<img/trickster.png, id=183, 896.34875pt x 1027.84pt>
 File: img/trickster.png Graphic file (type png)
 <use img/trickster.png>
-Package pdftex.def Info: img/trickster.png  used on input line 52.
+Package pdftex.def Info: img/trickster.png  used on input line 131.
 (pdftex.def)             Requested size: 262.2045pt x 300.66943pt.
-
-Overfull \vbox (49.11461pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (49.11461pt too high) has occurred while \output is active []
-
 File: lib/book/img/bg.jpg Graphic file (type jpg)
 <use lib/book/img/bg.jpg>
-Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 55.
+Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 134.
 (pdftex.def)             Requested size: 614.295pt x 867.07458pt.
- [9
-
-
- </home/msarthur/RPG/banner-saga-5e/img/trickster.png>]
+ [10 </home/msarthur/RPG/old-epic/img/trickster.png>]
 \openout2 = `sections/classes/bard.aux'.
 
- (/home/msarthur/RPG/banner-saga-5e/sections/classes/bard.tex
-File: img/paladin.png Graphic file (type png)
-<use img/paladin.png>
-Package pdftex.def Info: img/paladin.png  used on input line 16.
-(pdftex.def)             Requested size: 262.2045pt x 228.7795pt.
-File: lib/book/img/bg.jpg Graphic file (type jpg)
-<use lib/book/img/bg.jpg>
-Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
-(pdftex.def)             Requested size: 614.295pt x 867.07458pt.
- [10
-
-
-])
-\openout2 = `sections/classes/hunter.aux'.
-
- (/home/msarthur/RPG/banner-saga-5e/sections/classes/hunter.tex
-File: img/paladin.png Graphic file (type png)
-<use img/paladin.png>
-Package pdftex.def Info: img/paladin.png  used on input line 16.
-(pdftex.def)             Requested size: 262.2045pt x 228.7795pt.
+ (/home/msarthur/RPG/old-epic/sections/classes/bard.tex
+<img/bard-2.png, id=189, 566.115pt x 727.71875pt>
+File: img/bard-2.png Graphic file (type png)
+<use img/bard-2.png>
+Package pdftex.def Info: img/bard-2.png  used on input line 16.
+(pdftex.def)             Requested size: 262.2045pt x 337.06433pt.
 File: lib/book/img/bg.jpg Graphic file (type jpg)
 <use lib/book/img/bg.jpg>
 Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
@@ -1575,14 +1562,15 @@ Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
  [11
 
 
-])
-\openout2 = `sections/classes/rogue.aux'.
+ </home/msarthur/RPG/old-epic/img/bard-2.png>])
+\openout2 = `sections/classes/hunter.aux'.
 
- (/home/msarthur/RPG/banner-saga-5e/sections/classes/rogue.tex
-File: img/paladin.png Graphic file (type png)
-<use img/paladin.png>
-Package pdftex.def Info: img/paladin.png  used on input line 16.
-(pdftex.def)             Requested size: 262.2045pt x 228.7795pt.
+ (/home/msarthur/RPG/old-epic/sections/classes/hunter.tex
+<img/rogue.png, id=195, 1001.7425pt x 1606.0pt>
+File: img/rogue.png Graphic file (type png)
+<use img/rogue.png>
+Package pdftex.def Info: img/rogue.png  used on input line 16.
+(pdftex.def)             Requested size: 262.2045pt x 420.3683pt.
 File: lib/book/img/bg.jpg Graphic file (type jpg)
 <use lib/book/img/bg.jpg>
 Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
@@ -1590,82 +1578,13 @@ Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
  [12
 
 
-])) (/home/msarthur/RPG/banner-saga-5e/sections/classes/will-power.tex
-Chapter 4.
-File: lib/book/img/bg.jpg Graphic file (type jpg)
-<use lib/book/img/bg.jpg>
-Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 44.
-(pdftex.def)             Requested size: 614.295pt x 867.07458pt.
-[13
-
-
-]
-\openout2 = `sections/classes/cleric.aux'.
-
- (/home/msarthur/RPG/banner-saga-5e/sections/classes/cleric.tex
-File: img/paladin.png Graphic file (type png)
-<use img/paladin.png>
-Package pdftex.def Info: img/paladin.png  used on input line 16.
-(pdftex.def)             Requested size: 262.2045pt x 228.7795pt.
-File: lib/book/img/bg.jpg Graphic file (type jpg)
-<use lib/book/img/bg.jpg>
-Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
-(pdftex.def)             Requested size: 614.295pt x 867.07458pt.
- [14
-
-
-])
-\openout2 = `sections/classes/druid.aux'.
-
- (/home/msarthur/RPG/banner-saga-5e/sections/classes/druid.tex
-File: img/paladin.png Graphic file (type png)
-<use img/paladin.png>
-Package pdftex.def Info: img/paladin.png  used on input line 16.
-(pdftex.def)             Requested size: 262.2045pt x 228.7795pt.
-File: lib/book/img/bg.jpg Graphic file (type jpg)
-<use lib/book/img/bg.jpg>
-Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
-(pdftex.def)             Requested size: 614.295pt x 867.07458pt.
- [15
-
-
-])
-\openout2 = `sections/classes/wizard.aux'.
-
- (/home/msarthur/RPG/banner-saga-5e/sections/classes/wizard.tex
-File: img/paladin.png Graphic file (type png)
-<use img/paladin.png>
-Package pdftex.def Info: img/paladin.png  used on input line 16.
-(pdftex.def)             Requested size: 262.2045pt x 228.7795pt.
-File: lib/book/img/bg.jpg Graphic file (type jpg)
-<use lib/book/img/bg.jpg>
-Package pdftex.def Info: lib/book/img/bg.jpg  used on input line 19.
-(pdftex.def)             Requested size: 614.295pt x 867.07458pt.
- [16
-
-
-])))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
- (/home/msarthur/RPG/banner-saga-5e/book.aux (/home/msarthur/RPG/banner-saga-5e/sections/classes/barbarian.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/fighter.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/paladin.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/bard.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/hunter.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/rogue.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/cleric.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/druid.aux) (/home/msarthur/RPG/banner-saga-5e/sections/classes/wizard.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
-Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: 81AD8D1BFF93427AA236A12D739582ED;728.
- ) 
-Here is how much of TeX's memory you used:
- 35651 strings out of 492982
- 701205 string characters out of 6134896
- 942054 words of memory out of 5000000
- 38467 multiletter control sequences out of 15000+600000
- 559683 words of font info for 70 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 70i,14n,103p,10547b,930s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/bookman/ubkl8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on /home/msarthur/RPG/banner-saga-5e/book.pdf (20 pages, 6393134 bytes).
-PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 299 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ </home/msarthur/RPG/old-epic/img/rogue.png>]
+/home/msarthur/RPG/old-epic/sections/classes/hunter.tex:49: Misplaced \cr.
+\reserved@c ->\ifnum 0=`{}\fi \cr 
+                                  
+l.49 S
+      low Fall & \parbox[l][1.2cm][c]{15cm}{
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error mess
