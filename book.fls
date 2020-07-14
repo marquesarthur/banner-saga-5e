@@ -595,6 +595,11 @@ INPUT /home/msarthur/RPG/old-epic/img/druid-2.png
 INPUT /home/msarthur/RPG/old-epic/img/druid-2.png
 INPUT /home/msarthur/RPG/old-epic/lib/book/img/bg.jpg
 INPUT /home/msarthur/RPG/old-epic/lib/book/img/bg.jpg
+INPUT /home/msarthur/RPG/old-epic/img/bard.png
+INPUT /home/msarthur/RPG/old-epic/img/bard.png
+INPUT /home/msarthur/RPG/old-epic/img/bard.png
+INPUT /home/msarthur/RPG/old-epic/lib/book/img/bg.jpg
+INPUT /home/msarthur/RPG/old-epic/lib/book/img/bg.jpg
 OUTPUT /home/msarthur/RPG/old-epic/sections/classes/cleric.aux
 INPUT /home/msarthur/RPG/old-epic/sections/classes/cleric.tex
 INPUT /home/msarthur/RPG/old-epic/sections/classes/cleric.tex

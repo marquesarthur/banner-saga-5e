@@ -11,4 +11,4 @@
 \contentsline {chapter}{\numberline {4}Spell Weavers}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Arcanist}{19}{section.4.1}
 \contentsline {section}{\numberline {4.2}Elementalist}{21}{section.4.2}
-\contentsline {section}{\numberline {4.3}Theurgist}{22}{section.4.3}
+\contentsline {section}{\numberline {4.3}Theurgist}{23}{section.4.3}
