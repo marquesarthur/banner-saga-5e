@@ -355,6 +355,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/aurical/aurical.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/aurical/aurical.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bookhands/pgothic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bookhands/pgothic.sty
 INPUT /home/msarthur/RPG/old-epic/book.aux
 INPUT /home/msarthur/RPG/old-epic/book.aux
 INPUT /home/msarthur/RPG/old-epic/sections/classes/barbarian.aux
@@ -532,6 +540,11 @@ INPUT /home/msarthur/RPG/old-epic/lib/book/img/bg.jpg
 OUTPUT /home/msarthur/RPG/old-epic/sections/classes/hunter.aux
 INPUT /home/msarthur/RPG/old-epic/sections/classes/hunter.tex
 INPUT /home/msarthur/RPG/old-epic/sections/classes/hunter.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bookhands/ot1pgoth.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bookhands/ot1pgoth.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bookhands/pgoth10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bookhands/pgoth17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bookhands/pgoth17.tfm
 INPUT /home/msarthur/RPG/old-epic/img/longbow.png
 INPUT /home/msarthur/RPG/old-epic/img/longbow.png
 INPUT /home/msarthur/RPG/old-epic/img/longbow.png
@@ -631,6 +644,7 @@ INPUT /home/msarthur/RPG/old-epic/book.out
 INPUT /home/msarthur/RPG/old-epic/book.out
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT /home/msarthur/.texlive2017/texmf-var/fonts/pk/ljfour/public/bookhands/pgoth17.1707pk
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb
