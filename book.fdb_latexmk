@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1597220216 "/home/msarthur/RPG/old-epic/book.tex" "/home/msarthur/RPG/old-epic/book.pdf" "book" 1597220217
+["pdflatex"] 1597250312 "/home/msarthur/RPG/old-epic/book.tex" "/home/msarthur/RPG/old-epic/book.pdf" "book" 1597250314
   "/etc/texmf/web2c/texmf.cnf" 1585022948 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/msarthur/RPG/old-epic/book.aux" 1597220217 1095 13d5ded5dc5200a49b0a519c94d93615 ""
+  "/home/msarthur/RPG/old-epic/book.aux" 1597250313 1095 13d5ded5dc5200a49b0a519c94d93615 ""
   "/home/msarthur/RPG/old-epic/book.tex" 1597208703 3204 5db18385cfecb360b7f1fa47c2f41ffd ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -246,8 +246,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1585023049 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1585023076 4127004 b7c8d70fa59fcc61b5180717fe2f09e5 ""
-  "book.aux" 1597220217 1095 13d5ded5dc5200a49b0a519c94d93615 ""
-  "book.out" 1597220217 45 276d494e1af02269ea7215d36df1009b ""
+  "book.aux" 1597250313 1095 13d5ded5dc5200a49b0a519c94d93615 ""
+  "book.out" 1597250313 45 276d494e1af02269ea7215d36df1009b ""
   "book.tex" 1597208703 3204 5db18385cfecb360b7f1fa47c2f41ffd ""
   "img/elric.png" 1594585851 408468 6ae9ff6250c2d40a38b567864b01eb0c ""
   "lib/book/img/bg.jpg" 1591342436 2128598 780f5778baabc3cb56a9591be561bbfa ""
@@ -260,11 +260,11 @@
   "lib/book/rpg-sections.sty" 1589251316 985 5dfd4c7baf6226485dc8d6983cca14be ""
   "lib/book/rpg-table.sty" 1593404142 719 0f7ee2ca565a697d8e4f979b47ba6018 ""
   "lib/rpg-book.sty" 1593404978 4759 15c0b2e7b150642ea5cde1e837c9a9d6 ""
-  "sections/sword-mage.tex" 1597220216 11941 10abdbd47e31c67ebb1734979846c33f ""
+  "sections/sword-mage.tex" 1597250312 12516 7f111c0ca1f7cf95641bd768ebe2d972 ""
   (generated)
+  "book.out"
+  "book.aux"
+  "book.pdf"
+  "book.log"
   "/home/msarthur/RPG/old-epic/book.log"
   "/home/msarthur/RPG/old-epic/book.pdf"
-  "book.out"
-  "book.pdf"
-  "book.aux"
-  "book.log"
