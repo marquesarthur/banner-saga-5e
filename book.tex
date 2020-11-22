@@ -40,6 +40,14 @@
 \makeatother%
 
 
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
 \definecolor{alien}{HTML}{660f00}
 
 \definecolor{PC}{HTML}{c0ccc1}
@@ -124,9 +132,9 @@
 % \newsect
 
 
-% \input{sections/pcs}
+\input{sections/pcs}
 
-\input{sections/sword-mage}
+% \input{sections/sword-mage}
 
 % \input{sections/situation}
 % \input{sections/characters}

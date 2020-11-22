@@ -19,14 +19,14 @@
 4th & +2 &  4   & \parbox[l][0.6cm][c]{8cm}{Ability Score Improvement} & 3  & 3 & - & - & - & -\\
 5th & +3 &  5   & \parbox[l][0.6cm][c]{8cm}{Extra Attack} & 4 & 4 & 2 & - & - & -\\
 6th & +3 &  6   & \parbox[l][0.6cm][c]{8cm}{Aegis feature} & 4 & 4 & 2 & - & - & -\\
-7th & +3 &  7   & \parbox[l][0.6cm][c]{8cm}{Piercing Spell} & 5 & 4 & 3 & - & - & -\\
+7th & +3 &  7   & \parbox[l][0.6cm][c]{8cm}{-} & 5 & 4 & 3 & - & - & -\\
 8th & +3 &  8   & \parbox[l][0.6cm][c]{8cm}{Ability Score Improvement} & 5 & 4 & 3 & - & - & -\\
-9th & +4 &  9  & \parbox[l][0.6cm][c]{8cm}{-} & 6 & 4 & 3 & 2 & - & -\\
+9th & +4 &  9  & \parbox[l][0.6cm][c]{8cm}{Piercing Spell} & 6 & 4 & 3 & 2 & - & -\\
 10th & +4 & 10  & \parbox[l][0.6cm][c]{8cm}{Aegis feature} & 6  & 4 & 3 & 2 & - & -\\
 11th & +4 & 11 & \parbox[l][0.6cm][c]{8cm}{Runic Blade} & 7 & 4 & 3 & 3 & - & -\\
 12th & +4 & 12  & \parbox[l][0.6cm][c]{8cm}{Ability Score Improvement} & 8 & 4 & 3 & 3 & - & -\\
 13th & +5 & 13  & \parbox[l][0.6cm][c]{8cm}{-} & 8 & 4 & 3 & 3 & 1 & -\\
-14th & +5 & 14  & \parbox[l][0.6cm][c]{8cm}{Sword and Sorcery} & 9 & 4 & 3 & 3 & 1 & -\\
+14th & +5 & 14  & \parbox[l][0.6cm][c]{8cm}{Sword and Sorcery Initiate} & 9 & 4 & 3 & 3 & 1 & -\\
 15th & +5 & 15  & \parbox[l][0.6cm][c]{8cm}{Aegis feature} & 9 & 4 & 3 & 3 & 2 & -\\
 16th & +5 & 16  & \parbox[l][0.6cm][c]{8cm}{Ability Score Improvement} & 10 & 4 & 3 & 3 & 2 & -\\
 17th & +6 & 17  & \parbox[l][0.6cm][c]{8cm}{-} & 11 & 4 & 3 & 3 & 3 & 1\\
@@ -70,8 +70,8 @@ As a combatant, you gain the following class features.
 
 If you’re proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your swordmage spells.
 
-Additionally, whenever you hit a creature with a melee weapon attack,
-you can choose to slow it down.
+Additionally, once per turn, when you hit a creature with a melee weapon attack,
+you can choose to magically hinder it.
 Until the start of your next turn, that target has disadvantage on any attack roll that isn't against you. You can use this class feature only once per turn.
 
 \section*{Arcane Rift} 
@@ -81,9 +81,9 @@ You have a set of rift points detailed in the swordmage table.
 
 
 
-You can spend a rift point for small ethereal jaunts. For every rift point spent, you transform 10 feet of your normal movement into 10 ft teleporting to a place you can see. You are still bound by your movement speed. For example a swordmage with 30 movement speed can spend 1 rift point to teleport 10 feet and move her remaining 20 feet while one that spends 3 rift points can teleport 30 feet.
+You can spend an arcane rift point for small ethereal jaunts. For every rift point spent, you transform 10 feet of your normal movement into 10 ft teleporting to a place you can see. You are still bound by your movement speed. For example a swordmage with 30 movement speed can spend 1 rift point to teleport 10 feet and move her remaining 20 feet while one that spends 3 rift points can teleport 30 feet.
 
-When you spend a a rift point, it is unavailable until you finish a short or Long. Be aware, spending too many rift points may torn reality itself. 
+When you spend an arcane rift point, it is unavailable until you finish a short or long rest. Be aware, spending too many rift points may torn reality itself. 
 
 \smallskip
 
@@ -111,45 +111,46 @@ When you roll a 1 or 2 on a damage die for an Attack you make with a melee weapo
 
 \section*{Imbue Spell}
 
-Starting at 2nd Level, you have learned how to imbue certain spells as part of your speel attacks. 
-Once per turn, as a bonus action, you can cast an spell that has the \textbf{[imbuable]} keyword into your blade.
-The next time you hit with a melee weapon attack, you can choose to discharge the spell into the target. 
-The target suffers any normal effects for that spell as if you have casted it. 
+Starting at 2nd Level, you have learned how to imbue certain spells as part of your weapon attacks. 
+Once per turn, you can cast an spell that has the \textbf{[imbuable]} keyword into your blade. Whenever a spell of 1st level or higher that requires a ranged spell attack or has an area of effect, you can make a melee weapon attack instead. You apply the weapon damage to the total spell damage. 
+
+Special rules apply:
+
 
 
 \begin{itemize}
-    \item For damage purposes, only the weapon attack benefits from a weapon critical hit.
-    \item For area of effect spells, you trade crowd control for accuracy deciding to unleash the full spell power into a single target.
-    \item For concentration spells, you can repeat the imbued spell effects on subsequent turns as long as you maintain concentration.
+    \item For area of effect spells, you trade crowd control for accuracy deciding to unleash the full spell power into a single target. If the weapon attack hits, apply the weapon damage; Area of effect spells do not benefit from critical hits.
+    \item If a spell has more than one ranged attack, you can roll multiple melee weapon attacks applying weapon damage on each attack;
+    \item If a spell only has a saving throw the creature must make a saving throw regardless of hitting or missing. Apply weapon damage only on a hit;
+    \item If a spell requires concentration, you must maintain concentration as usual;
 \end{itemize}
 
 
 
-
-If you cast a blade cantrip spell (i.e., booming blade or green-flame blade), you loose your imbued spell as it's hard to  maintain your imbued spell in conjunction with a blade cantrip. If you imbue another spell, 
-you also loose the last imbued one. 
-
 As an example, a swordmage that imbues \textit{Chromatic Orb} and hits a creature with 
 a longsword deals 1d8 + strength weapon damage + 3d8 damage from the Chromatic orb. 
 As another example, a target that fails a Wisdom saving throw for swordmage that imbued slow on his sword 
-is slown as long as you maintain concentration and the target fails its saving throw.
+is slown and, on a hit, takes extra 1d8 + strength weapon damage.
 
 
-At higher levels, it is more difficult to resist to an imbued spell.
+
+
+At higher levels, it is more difficult to resist an imbued spell.
 
 \smallskip
 
-{\color{red} \textbf{NOTE} Wait this is overpowered. Not really a paladin at the same level can burst the same 3d8 damage on an undead or a fiend and she also benefits from critical hits. The fact that way more monsters
+{\color{red} \textbf{NOTE} Wait this is overpowered. Not really a paladin at the same level can burst more damage. The fact that way more monsters
 have resistance to elemental damage than to radiant damage also helps balancing.
 
-Ideally, this allows for some nice use of spells like pushing a single target with thunderwave or setting your sword on fire with flaming sphere. 
+Ideally, this allows for some nice use of spells like pushing a single target with thunderwave or setting your sword on fire with scorching ray. 
 }
 
 
 
-\smallskip
-
-{\color{red} Wait this blade restriction is BS. Yepe sorry. As a DM I don't want to apply damage reduction from 3 different sources, i.e., weapon, blade cantrip, and imbued spell. Let's keep things simple. }
+\begin{Figure}
+\centering
+\includegraphics[width=\textwidth]{img/elric.png}
+\end{Figure}
 
 
 \section*{Spellcasting}
@@ -180,7 +181,7 @@ must be of a level for which you have spell slots.
 
 \section*{Spellcasting Ability}
 Intelligence is your spellcasting ability for your swordmage
-spells, since your magic reflects yoour arcane studies. You
+spells, since your magic reflects your arcane training. You
 use your Intelligence whenever a spell refers to your
 spellcasting ability. In addition, you use your Intelligence
 modifier when setting the saving throw DC for a swordmage
@@ -201,69 +202,279 @@ rules of spellcasting.
 
 \section*{Extra Attack}
 
-Beginning at 5th Level, you can Attack twice, instead of once, whenever you take the Attack action on Your Turn.    
+Beginning at 5th Level, you can Attack twice, instead of once, whenever you take the Attack action on Your Turn.   
+
+Additionally, you can spend an arcane rift point to make any area of effect spell cast through your imbue spell class feature affect a second target within the area of effect of the spell. The spell lashes from the initial target to a second as you strike through your foes. The weapon damage applies only to the initial target. As an example, a swordmage casting slow or fireball can now affect a second target in the spell range. 
 
 \section*{Pierce Spell}
 
 
-At 7th level, you have learned to pierce your blade through the spell weave making your spells more difficult to resist. When you hit a creature with an imbued spell, that creature has disadvantage on the next saving throw it makes against that spell.
+At 9th level, you have learned to pierce your blade through the spell weave making your spells more difficult to resist. When you hit a creature with an imbued spell, you can spend an arcane rift point to force the creature to have disadvantage on the next saving throw it makes against that spell.
 
 
 \section*{Runic Blade}
 
 
-At 11th level, you have learned to use your rift points to further augment your sword and sorcery:
+At 11th level, you have learned to use your rift ability to further augment your sword and sorcery. You can absorb your enemy spells to recover part of your expended spell slots.
+You can spend an arcane rift point to cast \textit{Counterspell}.  On a successful counterspell, you recover a single 1st level spell slot. To counter spells of higher levels you must spend 2 additional rift points per spell level. 
+You cannot counterspell spells of 6th level or higher with this class feature.
 
-\begin{itemize}
-    \item You can absorb your enemy spells to recover part of your expended spell slots.
-    You can spend a rift point to cast \textit{Counterspell}.  On a successful counterspell, you recover a single 1st level spell slot. To counter spells of higher levels you must spend 2 additional rift points per spell level. 
-    You cannot counterspell spells of 6th level or higher with this class feature.
-    \item You can spend a rift point to make any area of effect spell cast through your imbue spell class feature to affect a second target within the area of effect of the spell. The spell lashes from the initial target to a second as you strike through your foes. As an example, a swordmage casting slow can now affect a second target in the spell range.
-\end{itemize}
+Additionally, once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. 
+    
 
-
-\section*{Sword and Sorcery}
+\section*{Sword and Sorcery Initiate}
 
 
-At 14th level, you start to master an imbuable spells. Choose one 1st-level Swordmage spell. You can cast those Spells at their lowest level three times without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+At 14th level, you start to master an imbuable spells. Choose one 1st-level Swordmage spell. You can cast this Spell at its lowest level two times per long rest without expending a spell slot. 
 
 By spending 8 hours in study, you can exchange the Spells you chose for different Spells of the same levels.
 
-When a sword mage starts her studies towards a certain imbuable spells, it often translates into people who know her calling her by the imbuable spell name. For example Avassalara starts to master the Chromatic Orb spell. It's often common that people will refer to her as Avassalara of the Chromatic Blade.
+When a sword mage starts her studies towards a certain imbuable spells, it often translates into people who know her calling her by the imbuable spell name. For example Avassalara starts to master the Chromatic Orb spell. People might start referring to her as Avassalara of the Chromatic Blade.
 
 
-\smallskip
-
-{\color{red} I guess the class is already strong and this is a small fix on the d8 hit dice. It comes at a really late level though.  }
 
 
 
 \section*{Sword and Sorcery Mastery}
 
 
-At 18th level, you have achieved such mastery over certain imbuable spells that you can cast them at will. Choose one 1st-level Swordmage spell and also the spell selected at your 14th level class feature. You can cast those Spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose one 1st-level Swordmage spell and also the spell selected at your 14th level class feature. You can cast those Spells at their lowest level without expending a spell slot. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 
 By spending 8 hours in study, you can exchange one or both of the Spells you chose for different Spells of the same levels.
 
 
 \smallskip
 
-{\color{red} I guess the class is already strong and this is a small fix on the d8 hit dice. It comes at a really late level though.  }
+{\color{red} This might be really strong if people select shield. That means a straight +5 to AC every turn but it still consumes your reaction... besides, I barely play at such high levels so it's hard to get a sense of balancing }
+
 
 
 \end{multicols*}
 
 \clearpage
 
-
-
 \begin{multicols*}{2}
+
+
+\section*{Aegis of Assault}
+
+Your sword and sorcery tradition is aggressive and reckless. You can strike enemies with precision.  
+
+\section*{Arcana Blade}
+
+Small arcane blue flames continuously erupt from your blade. When you chose this aegis at 3rd level, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls when you attack with a melee weapon.
+
+
+
+\smallskip
+
+{\color{red} This makes the class SAD but with a d8 for HP, you are still a little squishy and cannot assume the role of a tanker as an EK besides this is at the same level of an Artificer battle smith so it's not a big harm. }
+
+
+
+\section*{Aggressive Magic}
+
+Starting at 6th level, you have learned to slash through the weave with such precision that your spells are more aggressive. You can spend 2 rift points to reroll a number of the damage dice up to your Intelligence modifier (minimum of one). You must use the new rolls. 
+
+This class feature only applies to damage rolled through an imbued spell.
+
+
+\section*{Arcane Speed}
+
+At 10th level, you have honed your skirmishing skills. Increase your movement speed by 10 feet. Additionaly, your Movement is unaffected by Difficult Terrain.
+
+
+\section*{Greater Aegis}
+
+At 15th level, you have become a master at your aegis art. Whenever a creature hits you with an attack, that creature takes force damage equal to your Intelligence modifier (minimum of 1) if you’re not incapacitated.
+
+\section*{Sword of Doom}
+
+At 20th level, your assault abilities are incomparable. Whenever you spend an arcane rift point to affect a second target with your imbued spell, you can also affect a third target. If the spell requires a saving throw, all targets have disadvantage on the saving throw.
+
 
 
 \begin{Figure}
 \centering
-\includegraphics[width=\textwidth]{img/elric.png}
-\end{Figure}
+\includegraphics[width=\textwidth]{img/orc.png}
+\end{Figure}    
     
 
+\end{multicols*}
+
+
+\clearpage
+
+\begin{multicols*}{2}
+ 
+\section*{Aegis of Shielding}
+
+Your sword and sorcery tradition focus on protection. You can raise powerful barriers to protect your allies.
+
+\section*{Shielding Blade}
+
+When you chose this aegis at 3rd level, you gain temporary hit points equals to your Intelligence modifier whenever you use your blade magic class feature.
+These temporary hit points represent a small arcane shield or barrier that appears as you parry an attack with your weapon.
+
+Additionally, you gain proficiency with heavy armor.
+
+\smallskip
+
+{\color{red} This is weaker in comparison to the assault feature but the temp HP makes you a better tanker }
+
+
+\section*{Shielding Aura}
+
+Starting at 6th level, you have learned how to extend your award to nearby allies. Whenever you use your shielding blade class feature, you can chose to spend an arcane rift point to grant an ally within 30 feet 1d8 + your Intelligence modifier temporary hit points.
+
+\smallskip
+
+{\color{red} This is very similar to an artillerist }
+
+
+\begin{Figure}
+\centering
+\includegraphics[width=\textwidth]{img/centurion.png}
+\end{Figure}    
+
+\section*{Mental Fortress}
+
+At 10th level, you have honed your force of will. You are immune to the Frightened condition.
+
+
+    
+
+
+
+\section*{Greater Aegis}
+
+At 15th level, you have become a master at your aegis art. The temporary hit points granted to your shielding blade and shielding aura class features increase to twice your Intelligence modifier and 1d8 + twice your Intelligence modifier, respectively.
+
+\section*{Uncanny Mirror}
+
+At 20th level, your shielding abilities are incomparable. Whenever you roll initiative, you can spend 2 rift point to gain the benefits of the Mirror Image spell. 
+
+
+\end{multicols*}
+
+
+
+
+\clearpage
+
+\begin{multicols*}{3}
+\begin{small}
+        
+    
+ 
+\section*{Swordmage Spells}
+
+Imbuable spells marked with \textbf{[i]}
+
+\subsubsection{Cantrips}
+
+\begin{itemize}
+
+\item Acid Splash
+\item Chill Touch
+\item Dancing Lights
+\item Fire Bolt
+\item Sword Burst
+\item Lightning Lure
+\item Ray of Frost
+\item Shocking Grasp
+\item True Strike 
+\item Booming Blade
+\item Green-Flame Blade 
+\end{itemize}
+
+\subsubsection{1st Level}
+
+\begin{itemize}
+\item Detect Magic
+\item Expeditious Retreat
+\item Jump
+\item Longstrider
+\item Mage Armor
+\item Protection from Evil and Good
+\item Shield
+\item Absorb Elements 
+\item Burning Hands \textbf{[i]}
+\item Ray of Sickness \textbf{[i]}
+\item Cause fear \textbf{[i]}
+\item Thunderwave \textbf{[i]}
+\item Ice Knife \textbf{[i]}
+\end{itemize}
+
+
+\smallskip
+
+{\color{red} Removing Chromatic orb for balancing purposes }
+
+\subsubsection{2nd Level}
+
+\begin{itemize}
+\item Blur
+\item Darkvision
+\item Enlarge/Reduce
+\item Magic Weapon
+\item Mirror Image
+\item Misty Step
+\item Acid Arrow \textbf{[i]}
+\item Blindness/Deafness \textbf{[i]}
+\item Ray of Enfeeblement \textbf{[i]}
+\item Scorching Ray \textbf{[i]}
+\item Shatter \textbf{[i]}
+\end{itemize}
+
+\subsubsection{3rd Level}
+
+\begin{itemize}
+\item Blink
+\item Protection from Energy
+\item Remove Curse
+\item Spirit Guardians
+\item Bestow Curse \textbf{[i]}
+\item Fireball \textbf{[i]}
+\item Lightning Bolt \textbf{[i]}
+\item Slow \textbf{[i]}
+\item Tidal Wave \textbf{[i]}
+\end{itemize}
+
+\subsubsection{4th Level}
+
+\begin{itemize}
+\item Dimension Door
+\item Fire Shield
+\item Stoneskin
+\item Wall of Fire 
+\item Banishment  \textbf{[i]}
+\item Blight \textbf{[i]}
+\item Phantasmal Killer \textbf{[i]}
+\end{itemize}
+
+
+\subsubsection{5th Level}
+
+\begin{itemize}
+\item Steel Wind Strike
+\item Wall of Force
+\item Wall of Stone 
+\item Cone of Cold \textbf{[i]}
+\item Synaptic Static \textbf{[i]}
+\item Flame Strike \textbf{[i]}
+\end{itemize}
+
+
+\begin{Figure}
+\centering
+\includegraphics[width=\textwidth]{img/holy.png}
+\end{Figure}   
+
+
+\smallskip
+
+{\color{red} This doc was based on u/fanatic66's swordmage v6.1 }
+    
+\end{small}
 \end{multicols*}
